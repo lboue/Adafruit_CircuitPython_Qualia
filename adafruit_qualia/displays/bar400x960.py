@@ -79,13 +79,13 @@ class Bar400x960(DotClockDisplay):
             "width": 400,
             "height": 960,
             "overscan_left": 80,
-            "hsync_pulse_width": 10,
-            "hsync_front_porch": 30,
-            "hsync_back_porch": 50,
+            "hsync_pulse_width": 20,  // HSPW
+            "hsync_front_porch": 20,  // HFPD
+            "hsync_back_porch": 20,   // HBPD
             "hsync_idle_low": False,
-            "vsync_pulse_width": 2,
-            "vsync_front_porch": 15,
-            "vsync_back_porch": 17,
+            "vsync_pulse_width": 3,  // VSPW
+            "vsync_front_porch": 12,  // VFPD
+            "vsync_back_porch": 20,  // VBPD
             "vsync_idle_low": False,
             "pclk_active_high": False,
             "pclk_idle_high": False,
